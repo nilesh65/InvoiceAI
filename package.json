@@ -2,11 +2,19 @@
   "name": "invoice-generator",
   "version": "1.0.0",
   "scripts": {
-  "start": "node backend/server.js",
-  "dev": "nodemon backend/server.js",
-  "build": "cd backend && npm install && cd ../frontend/invoice-generator && npm install && npm run build"
-},
-  "dependencies": {},
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "build": "cd backend && npm install && cd ../frontend/invoice-generator && npm install && npm run build"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "mongoose": "^8.18.1",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2"
+  },
   "devDependencies": {
     "nodemon": "^3.1.11"
   }
