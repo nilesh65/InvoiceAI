@@ -4,7 +4,7 @@
   "scripts": {
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
-    "build": "cd frontend && npm install && npm run build"
+    "build": "cd frontend/invoice-generator && npm install && npm run build"
   },
   "dependencies": {},
   "devDependencies": {
