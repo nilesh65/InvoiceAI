@@ -1,0 +1,13 @@
+{
+  "name": "invoice-generator",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "build": "cd frontend && npm install && npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
